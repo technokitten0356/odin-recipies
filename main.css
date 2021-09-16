@@ -1,0 +1,84 @@
+.main-page {
+    font-size: 32px;
+    text-align: center;
+}
+
+.main {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-page {
+    background-image: url("https://media.istockphoto.com/photos/seamless-gingham-tablecloth-picture-id185070154?b=1&k=20&m=185070154&s=170667a&w=0&h=R7WTMw2LU4PQ5p4Y4FdEnqbb_gRin1J2HKenCO3MxAk=");
+}
+
+.card {
+    background-color: #EBE7E7;
+    padding: 20px;
+    box-shadow: 4px 2px 4px #AEAEAE;
+}
+
+/* Below are the styles for the recipe pages */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 38px;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.description p {
+    font-size: 19px;
+    line-height: 35px;
+}
+
+.description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    font-size: 19px;
+    padding: 3px;
+}
+
+.back {
+    font-size: 19px;
+    text-align: right;
+    margin: 10px;
+}
+
+.bulk {
+    display: flex;
+    justify-content: space-around;
+}
